@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles/SortableTable.css';
+import './SortableTable.css';
 
 const SortableTable = ({ data, columns, rowsPerPage, style }) => {
   // State to keep track of the current sort direction and column

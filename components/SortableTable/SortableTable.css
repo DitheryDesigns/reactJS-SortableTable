@@ -16,7 +16,7 @@
 }
 
 .SortableTable th {
-  background-color: #ff5500; /* Primary color */
+  background-color: var(--primary-color); /* Primary color */
   color: #fff;
   cursor: pointer;
 }
@@ -42,9 +42,9 @@
 /* Style pagination links/buttons */
 .pagination a,
 .pagination button {
-  color: #ff5500; /* Primary color */
+  color: var(--primary-color); /* Primary color */
   background-color: transparent;
-  border: 1px solid #ff5500; /* Primary color */
+  border: 1px solid var(--primary-color); /* Primary color */
   padding: 6px 12px;
   margin: 0 5px;
   text-decoration: none;
@@ -55,15 +55,15 @@
 
 .pagination a:hover,
 .pagination button:hover {
-  background-color: #ff5500; /* Primary color */
+  background-color: var(--primary-color); /* Primary color */
   color: #fff;
 }
 
 /* Style the current page indicator */
 .pagination .active {
-  background-color: #ff5500; /* Primary color */
+  background-color: var(--primary-color); /* Primary color */
   color: #fff;
-  border: 1px solid #ff5500; /* Primary color */
+  border: 1px solid var(--primary-color); /* Primary color */
 }
 
 .pagination-button-next {
